@@ -20,7 +20,7 @@
    yum -y install nodejs
    ```
 
-Setup Jenkins job 
+Setup Jenkins jobs
 
 ## Fork nodejs applicaton onto your repository 
 
