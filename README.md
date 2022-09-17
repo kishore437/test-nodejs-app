@@ -22,7 +22,7 @@
 
 Setup Jenkins jobs
 
-## Fork nodejs applicaton onto your repository 
+## Fork nodejs applicaton onto your repository for the nodejs app
 
 Github URL: https://github.com/ravdy/nodejs.git
 
