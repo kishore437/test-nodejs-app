@@ -4,7 +4,7 @@ pipeline {
   
    stages {
    
-     stage('git-commit') { 
+     stage('commit') { 
         steps { 
            sh 'echo "commit..."'
         }
