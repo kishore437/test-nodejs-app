@@ -15,7 +15,13 @@ pipeline {
            sh 'echo "testing application."'
         }
       }
-          
+     
+     stage('auto-stage') {
+        steps {
+           sh 'echo "auto-test."'
+        }
+     }
+
      stage('deploying') { 
         steps { 
            sh 'echo "deploy application.."'
