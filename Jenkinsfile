@@ -4,19 +4,19 @@ pipeline {
   
    stages {
    
-     stage('commit') { 
+     stage('git-commit') { 
         steps { 
            sh 'echo "commit..."'
         }
      }
      
-     stage('Test') { 
+     stage('Testing') { 
         steps { 
            sh 'echo "testing application."'
         }
       }
-     
-     stage('deploy') { 
+          
+     stage('deploying') { 
         steps { 
            sh 'echo "deploy application.."'
         }
